@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" type="x-icon" href="couple.jpg">
@@ -8,66 +9,71 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script>
-        (function() {
+        (function () {
             emailjs.init("YOUR_USER_ID");
         })();
     </script>
 </head>
+
 <body>
-    <div class="menu-bar"></div>
-    <nav>
-        <ul>
-            <li><a href="#about-us">About Us</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
-    </nav>
+    <div class="menu-bar">
+        <nav>
+            <ul>
+                <li><a href="#about-us">ስለኛ</a></li>
+                <li><a href="#gallery">ፎቶዎቻችን</a></li>
+                <li><a href="#contact">አስተያየት</a></li>
+            </ul>
+        </nav>
+    </div>
     <header>
         <div class="header-content">
-            <h1>Kidus & Kalkidan's Love Story</h1>
+            <h1>የ ቃልኪዳን እና የ ቅዱስ የፍቅር ታሪክ</h1>
         </div>
     </header>
     <main>
         <section id="about-us">
-            <h2>About Us</h2>
+            <h2>ስለኛ</h2>
             <div class="about-content">
                 <img src="couple.jpg" alt="Couple Picture" class="couple-pic">
-                <p>Hello! We are Kidus Yosef and Kalkidan Zerihun. We met in foundation class in Hiwot Birhan church and have been together since 2010E.C. We love walk, going to church and spending time in cafe and Restaurants .</p>
+                <p>
+                    እንዴት ናችሁ! ቅዱስ እና ቃልኪዳን እንባላለን። ሕይወት ብርሃን በተክርስቲያን የ ደህንነት ትምህርት ስንማር ነው የተዋወቅነው ከ 2008 ጀምሮ አንድ ላይ ነበርን. አንድ ላይ በተክርስቲያን መሄድ፣ ካፈ መገናኘትሎ እና አብሮ ጊዜ ማሳለፍ እንወዳለን።
+                </p>
             </div>
         </section>
         <section id="gallery">
-            <h2>Gallery</h2>
+            <h2>ፎቶዎቻችን</h2>
             <div class="gallery-grid">
                 <div class="gallery-item">
                     <img src="photo1.jpg" alt="Photo 1">
-                    <p>At gugimalie hawassa</p>
+                    <p>ጉዱማሌ ሕዋሳ</p>
                 </div>
                 <div class="gallery-item">
                     <img src="photo2.jpg" alt="Photo 2">
-                    <p>marryjoy library</p>
+                    <p>ሜሪጆይ ላይብረሪ</p>
                 </div>
                 <div class="gallery-item">
                     <img src="photo3.jpg" alt="Photo 3">
-                    <p>after our discipleship class just to walk along her house</p>
+                    <p>ከ ደቀመዝሙር ትምህርት በኋላ ወደ ቤቷ ስሸኛት</p>
                 </div>
             </div>
         </section>
         <section id="contact">
-            <h2>Contact Us</h2>
+            <h2>አስተያየት</h2>
             <form id="contact-form">
-                <label for="name">Name:</label>
+                <label for="name">ሙሉ ስም:</label>
                 <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
+                <label for="email">እሜይል:</label>
                 <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
+                <label for="message">መልእክት:</label>
                 <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
+                <button type="submit">ላከው</button>
             </form>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Kidus Yosef & Kalkidan Zerihun. All rights reserved.</p>
+        <p>&copy; 2024 ቅዱስ ዮሴፍ እና ቃልኪዳን ዘሪሁን። ሙሉ መብቱ የተጠበቀ</p>
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
