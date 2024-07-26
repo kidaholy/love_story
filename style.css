@@ -12,6 +12,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: yellow;
+  position: absolute;
+  left: 0;
 }
 
 nav ul li a {
